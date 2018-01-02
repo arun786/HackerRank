@@ -1,6 +1,8 @@
-# HackerRank
+package JavaOutPutFormatting;
 
-Java Output Formatting
+public class JavaOutputFormattingTutorial {
+    public static void main(String[] args) {
+        /*String formatting*/
 
         String str = "arun";
         System.out.printf("%s", str); //It will be printed as arun with no spaces
@@ -17,3 +19,7 @@ Java Output Formatting
         System.out.printf("%-5d", number);//left justified with 5 characters
         System.out.println();
         System.out.printf("%05d", number); //right justified with leading spaces as 0
+    }
+}
+
+
